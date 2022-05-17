@@ -27,7 +27,10 @@ ul li {
     line-height: 32px;
     font-family: 'tahoma', sans-serif;
  }
-
+span.countup {
+    color: #000000;
+    font-weight: bold;
+}
 
 nav{
     position: fixed; 
@@ -357,7 +360,7 @@ input:-webkit-autofill {
 /*------------------------ 2 Home ------------------------*/		
 
 .home {
-  background: #ffff4d url("../images/mouse.jpg") no-repeat scroll center center / cover ;
+  background: #ffff4d url("../images/laptop.jpg") no-repeat scroll center center / cover ;
   display: table;
   width: 100%;
 }
@@ -528,7 +531,7 @@ input:-webkit-autofill {
 
 .gray-bg{
     margin-top: 90px;
-    background: #f6f6f6; 
+    background: #E5E5E5; 
 }
 
 .what-can{
@@ -833,7 +836,7 @@ a.site-button{
 }
 
 .projects {
-  background: #f6f6f6 none repeat scroll 0 0;
+  background: #E5E5E5 none repeat scroll 0 0;
   margin-top: 90px;
   padding: 50px 0;
 }
