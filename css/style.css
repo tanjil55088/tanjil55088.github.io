@@ -20,9 +20,9 @@ html{
 	height: 100%;
 }
 
-p,
-ul li {
-    font-size: 16px;
+
+.out ul li {
+    font-size: 20px;
     color: #777777;
     line-height: 32px;
     font-family: 'tahoma', sans-serif;
@@ -475,6 +475,7 @@ input:-webkit-autofill {
 .about-image img{
     width: 100%;
     padding-top: 60px;
+    padding-left: 25px;
  }   
 
 
@@ -482,6 +483,7 @@ input:-webkit-autofill {
     font-size: 28px;
     font-weight: bold;
     line-height: 30px;
+    padding-top: 50px;
  } 
 
 .about-text{
@@ -489,9 +491,13 @@ input:-webkit-autofill {
     height: 407px;
  } 
 
-.in{
+.in p {
     display: table-cell;
-   vertical-align: middle;
+    vertical-align: middle;
+    font-size: 17px;
+    color: #777777;
+    line-height: 32px;
+    font-family: 'tahoma', sans-serif;
 
  } 
  .out{
